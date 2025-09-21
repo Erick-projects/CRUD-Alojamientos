@@ -1,0 +1,127 @@
+* {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background:#f0f2f5; 
+    color:#000316;
+}
+
+.color1 { color: #000316; }
+.color2 { color: #003550; }
+.color3 { color: #006b98; }
+.color4 { color: #00aced; }
+.color5 { color: #00f7ff; }
+
+
+header {
+    background:#003550;
+    color:white; 
+    padding:20px 0; 
+    text-align:center; 
+    box-shadow:0 3px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+    font-size:30px;
+    margin-bottom:5px;
+}
+header nav a {
+    color:white; 
+    margin:0 15px; 
+    text-decoration:none; 
+    font-weight:600;
+}
+header nav a:hover {
+    color:#00aced;
+}
+
+.container {
+    width:90%; 
+    max-width:1200px; 
+    margin:30px auto; 
+    padding:20px;
+    text-align:center;
+}
+
+.card {
+    background:white; 
+    padding:20px; 
+    margin:15px auto; 
+    border-radius:15px; 
+    box-shadow:0 4px 20px rgba(0,0,0,0.15); 
+    display:inline-block; 
+    width:300px; 
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width:100%; 
+    height:180px; 
+    object-fit:cover; 
+    border-radius:12px;
+}
+.card h3 {
+    margin:15px 0 10px 0; 
+    color:#006b98;
+}
+.card p {
+    font-size:14px; 
+    color:#003550;
+    margin-bottom:15px;
+}
+
+button {
+    padding:10px 15px; 
+    background:#00aced;
+    color:white; 
+    border:none; 
+    border-radius:8px; 
+    cursor:pointer; 
+    font-weight:600;
+    transition: background 0.3s;
+}
+button:hover {
+    background:#00f7ff; 
+    color:#003550;
+}
+
+form {
+    background:white; 
+    max-width:400px; 
+    margin:40px auto; 
+    padding:35px; 
+    border-radius:15px; 
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    text-align:center;
+}
+form input {
+    width:90%; 
+    padding:12px; 
+    margin:10px 0; 
+    border-radius:10px; 
+    border:1px solid #003550;
+    font-size:14px;
+}
+form button {
+    width:95%; 
+    margin-top:15px; 
+    font-size:16px;
+}
+
+h2, h3 {
+    color:#006b98;
+    margin-bottom:20px;
+}
+
+footer {
+    text-align:center; 
+    padding:20px; 
+    background:#f0f2f5; 
+    color:#003550;
+    margin-top:40px;
+}
